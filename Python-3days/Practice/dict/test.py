@@ -1,3 +1,4 @@
+# 
 employees = {
     "wang": {
         "部门": "科技",
@@ -37,3 +38,9 @@ for name in employees:
         employees[name]["部门"] = "管理"
 
 print(employees)
+
+# * get()
+print(employees.get("wang"))
+print(employees["wang"].get("部门"))
+print(employees.get("li", "不存在"))
+print(employees["wang"].get("职位", "不存在"))
