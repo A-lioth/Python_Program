@@ -1,4 +1,3 @@
-
 # * list = [推导语句 for i in list] ，可以省略append和创建空list这两个步骤。
 
 # * 1 创建列表元素
@@ -21,3 +20,9 @@
 # list_1 = [0, 1, 2, 3, 4]
 # list_2 = [i+1 for i in list_1]
 # print(list_2)
+
+# * 输出
+# * 每行输出一个元素
+[print(i) for i in range(1, 10)]
+# * 一行输出所有元素
+print([i for i in range(1, 10)])
